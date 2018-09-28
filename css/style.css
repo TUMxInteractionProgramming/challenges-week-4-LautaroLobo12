@@ -279,9 +279,5 @@ i {
 input {
 	border: none;
 	font-size: medium;
-	display: flex;
-}
-
-#uploadbtn {
-	align: left;
+	flex: 0 0 80%;
 }
