@@ -9,6 +9,8 @@ function switchChannel(channelName) {
     //Log the channel switch
     console.log("Tuning in to channel", channelName);
 
+
+    //TENGO QUE LLAMAR A LA VARIABLE GLOBAL DEL CHANNELS.JS!!
     //Write the new channel to the right app bar
     document.getElementById('channel-name').innerHTML = channelName;
 
@@ -26,7 +28,8 @@ function switchChannel(channelName) {
 
 /* #6 #liking a channel on #click */
 function star() {
-    $('#channel-star').attr('src', 'http://ip.lfe.mw.tum.de/sections/star.png');
+    $('h1 i').toggleClass('far fa-star');
+    $('h1 i').toggleClass('fas fa-star');
 }
 
 /**
@@ -51,3 +54,7 @@ function toggleEmojis() {
     /* $('#emojis').show(); // #show */
     $('#emojis').toggle(); // #toggle
 }
+
+
+
+

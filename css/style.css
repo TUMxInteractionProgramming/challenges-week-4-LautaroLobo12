@@ -172,9 +172,9 @@ li.selected {
     border-bottom: 4px solid #3F51B5;
 }
 
-#tab-bar button img {
+#tab-bar button i {
     display: block;
-    margin: 0 auto 4px auto;
+    top: 0;
 }
 
 /* #5 CHAT BAR */
@@ -269,4 +269,9 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+    /* font awesome icons correct size */
+i {
+    font-size: 24px;
 }
