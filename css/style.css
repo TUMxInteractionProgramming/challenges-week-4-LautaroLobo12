@@ -275,3 +275,13 @@ li.selected {
 i {
     font-size: 24px;
 }
+
+input {
+	border: none;
+	font-size: medium;
+	display: flex;
+}
+
+#uploadbtn {
+	align: left;
+}
