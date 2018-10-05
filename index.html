@@ -85,6 +85,12 @@
         </li>
 
     </ul>
+	
+	<div class="fab">
+		<span class="fab-action-button">
+			<i class="fas fa-plus"></i>
+		</span>
+	</div>
 
     <!-- TAB BAR -->
     <div id="tab-bar">
@@ -166,10 +172,11 @@
 
     <!-- #5 #smileys #insert the chat-bar -->
     <div id="chat-bar"> <!-- #6 #smile #show the menu on click -->
-        <button id="emojis-button" onclick="toggleEmojis()"><i class="far fa-smile"></i></button>
+        <button id="emojis-button" class="primary" onclick="toggleEmojis()"><i class="far fa-smile"></i></button>
         <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1F606; &#x1F607;</div>
 		<input type="text" name="message" value="Message..." maxlength="140">
-		<button id="uploadbtn"><i class="fas fa-arrow-right"></i></button>
+		<button class="accent"><i class="fas fa-arrow-right"></i></button>
+	</div>
 </div>
 
 </body>
